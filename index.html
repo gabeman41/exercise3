@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3</title>
+    <style>
+        .parent {
+            position: relative;
+            
+        }
+        .img2 {
+            position: absolute;
+            top: 33%;
+            left: 5%;
+            max-width: 50%;
+            border: 15px solid red;
+            transition: 1s;
+
+        }
+
+        .img2:hover {
+            border-color: orange;
+            transform: scale(0.9)    
+        }
+
+        .parent h3 {
+            color: red;
+            font-size: 30px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .parent h3:hover {
+            background-color: red;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img style="max-width: 100%;" src="img/banner.png" alt="">
+        <img src="img/thumb-1.png" alt="" class="img2">
+        <h3>Hi, There. I'm Mario The Adventurer</h3>
+    </div>
+</body>
+</html>
